@@ -11,6 +11,7 @@
         id="text" 
         placeholder="Add Task Text"
         [(ngModel)]="text"
+        (keydown)="callSubmit($event)"
         >
     </div>
     <div class="form-control">

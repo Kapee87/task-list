@@ -9,6 +9,7 @@ import { Subscription } from 'rxjs';
   styleUrls: ['./add-task.component.css']
 })
 export class AddTaskComponent implements OnInit {
+
   @Output() onAddTask: EventEmitter<Task> = new EventEmitter();
   
   text:string="";
@@ -25,6 +26,14 @@ export class AddTaskComponent implements OnInit {
   }
 
   ngOnInit(): void {
+  }
+
+  callSubmit($event: KeyboardEvent) {
+    if ($event.code === "Enter"){
+      this.onSubmit();
+      this.uiService.toggleAddTask();
+    }
+    
   }
 
   onSubmit(){

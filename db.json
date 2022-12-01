@@ -4,13 +4,61 @@
       "id": 1,
       "text": "Terminar primer modulo de Angular",
       "day": "Agosto 5 a las 12:00",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 3,
       "text": "Investigar sobre bootsrap",
       "day": "Agosto 5 a las 19:00",
       "reminder": true
+    },
+    {
+      "text": "juanitanga lavandanga",
+      "day": "el dia que las vacas vuelen",
+      "reminder": true,
+      "id": 4
+    },
+    {
+      "text": "tuy vieja en tanga",
+      "day": "every noche",
+      "reminder": false,
+      "id": 5
+    },
+    {
+      "text": "tuy vieja en tanga",
+      "day": "every noche",
+      "reminder": false,
+      "id": 6
+    },
+    {
+      "text": "algo",
+      "day": "",
+      "reminder": false,
+      "id": 12
+    },
+    {
+      "text": "algo",
+      "day": "",
+      "reminder": false,
+      "id": 13
+    },
+    {
+      "text": "algomas",
+      "day": "",
+      "reminder": false,
+      "id": 14
+    },
+    {
+      "text": "algomas",
+      "day": "",
+      "reminder": false,
+      "id": 15
+    },
+    {
+      "text": "chupar el dedo",
+      "day": "",
+      "reminder": false,
+      "id": 16
     }
   ]
 }
